@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  background-color: grey;
+}
+
+header {
+  padding-top: 300px;
+  margin: auto;
+  width: 350px;
+  height: 100vh;
+
+}
+
+h1 {
+padding: 16px 0;
+}
+
+input, button {
+  padding: 8px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+li {
+  padding-top: 30px;
+  list-style: none;
+  
+}
+
+span {
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
